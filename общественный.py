@@ -18,7 +18,7 @@ from translations import TRANSLATIONS
 
 ADMIN_IDS = {1412888095, 6721054139}
 TOKEN = "7857446133:AAFuGi6i9I8YjrbwtMn7pZV6cxTGcKovoDg"
-DATABASE_URL = "postgresql://postgres:sheri2001@localhost:5432/botposter_db"  # Replace with your PostgreSQL credentials
+DATABASE_URL = "postgresql://postgres@localhost:5432/botposter_db"
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode="HTML"))
